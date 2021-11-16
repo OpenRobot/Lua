@@ -6,4 +6,11 @@ while true do:
   wait(121)
 end
 
-
+if detected
+  rick.Playing = true
+  wait(10)
+  rick.Playing = false
+ end)
+else
+  rick.Playing = false
+end
