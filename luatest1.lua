@@ -1,6 +1,11 @@
 local music = game.Workspace:WaitForChild("Music")
 local TPM = music:WaitForChild("TPM")
 
+local touchpart = game.Workspace.touchpart
+local player = 
+local text = 
+local canhit
+
 while true do:
   TPM.Playing = true
   wait(121)
@@ -52,3 +57,6 @@ imageButton.MouseButton1Down:Connect(onPressed)
 imageButton.MouseButton1Up:Connect(onReleased)
 imageButton.Activated:Connect(onActivated)
 onLeft()
+
+
+
