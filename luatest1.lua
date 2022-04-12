@@ -6,6 +6,9 @@ local player =
 local text = 
 local canhit
 
+local part1 = game.Workspace.Anchor
+local part2 = game.Workspace.anchorchain
+
 while true do:
   TPM.Playing = true
   wait(121)
